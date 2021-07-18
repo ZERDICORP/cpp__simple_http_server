@@ -1,0 +1,58 @@
+.menu__content
+{
+	display: grid;
+	justify-items: right;
+	row-gap: 10px;
+}
+
+.menu__content > div
+{
+	color: #fff;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	column-gap: 10px;
+	background: #FFFFFF10;
+	padding: 5px;
+}
+
+.menu__content > div:hover
+{
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+.menu__content .menu__no_hover:hover
+{
+	border-bottom: 1px solid transparent;
+	border-top: 1px solid transparent;
+}
+
+.menu__content > div > span
+{
+	grid-row: 1;
+	grid-column: 1;
+}
+
+.menu__content > div > img
+{
+	grid-row: 1;
+	grid-column: 2;
+	width: 18px;
+}
+
+.menu__gmail_text
+{
+	grid-row: 1;
+	grid-column: 1;
+	background: transparent;
+	font-size: 18px;
+	border-radius: 0px;
+	border: none;
+	color: #fff;
+}
+
+.menu__gmail_text::selection
+{
+	background: #0FC0FC85;
+}
