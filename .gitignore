@@ -1,5 +1,1 @@
 *.exe
-/build/db/images/*
-/build/db/setups/*
-!/build/db/images/.gitkeep
-!/build/db/setups/.gitkeep
